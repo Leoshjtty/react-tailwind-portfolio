@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import pp from './Profile Pic.jpg'
+import pp from './assets/Profile Pic.jpg'
 import './App.css';
 
 function App() {
