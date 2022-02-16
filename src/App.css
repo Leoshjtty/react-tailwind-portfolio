@@ -41,3 +41,14 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  position: absolute;
+  height: 20vmin;
+  width: 100vmax;
+  top: 0;
+  background-color:aqua;
+  padding: 20rem;
+  text-align: center;
+  vertical-align: center;
+}
