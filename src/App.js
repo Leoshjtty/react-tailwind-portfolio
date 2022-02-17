@@ -12,7 +12,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <img src={pp} className="Profile-pic" alt="pp" />
-        <p className="text-3xl font-bold underline">
+        <p>
           Work In Progress
         </p>
         <a
