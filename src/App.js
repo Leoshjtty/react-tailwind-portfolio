@@ -1,14 +1,14 @@
 import React from "react";
 import logo from './logo.svg';
 import pp from './assets/Profile Pic.jpg';
-// import Navbar from './components/Navbar/Navbar.js';
+import Navbar from './components/Navbar/Navbar.js';
 import './App.css';
 
 function App() {
   
   return (
     <div className="App">
-      {/* <Navbar /> */}
+      <Navbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <img src={pp} className="Profile-pic" alt="pp" />
