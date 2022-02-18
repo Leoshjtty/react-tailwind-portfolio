@@ -1,4 +1,3 @@
-// import React from "react";
 
 function Navbar() {
 
@@ -15,14 +14,17 @@ function Navbar() {
       </div>
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
-          <a href="https://www.google.com" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-            Docs
+          <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Home
           </a>
-          <a href="https://www.google.com" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-            Examples
+          <a href="/projects" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Projects
           </a>
-          <a href="https://www.google.com" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-            Blog
+          <a href="/about" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            About
+          </a>
+          <a href="/resume" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+            Resume
           </a>
         </div>
         <div>
