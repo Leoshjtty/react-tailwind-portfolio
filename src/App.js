@@ -34,7 +34,7 @@ function App() {
       </Router>
 
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <img src={pp} className="Profile-pic" alt="pp" />
         <p>
           Work In Progress
