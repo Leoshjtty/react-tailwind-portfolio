@@ -7,7 +7,7 @@ function About() {
       <p>About </p>
       <img src={pp} className="Profile-pic" alt="pp" />
       <a
-          className="App-link"
+          className="text-teal-500"
           href="https://linkedin.com/in/osel-lim/"
           target="_blank"
           rel="noopener noreferrer"

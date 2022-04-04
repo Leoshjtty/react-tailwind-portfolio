@@ -4,7 +4,7 @@ function Projects() {
     <div>
       <p>Projects </p>
       <a
-          className="App-link"
+          className="text-teal-500"
           href="https://t.me/Toto_Alert_Bot"
           target="_blank"
           rel="noopener noreferrer"
