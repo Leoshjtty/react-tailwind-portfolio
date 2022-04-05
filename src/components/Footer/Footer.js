@@ -1,7 +1,7 @@
 function Footer() {
 
     return (
-      <p class="bg-teal-500">footah </p>
+      <p className="bg-teal-500">footah </p>
     );
   }
   
