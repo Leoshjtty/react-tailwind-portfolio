@@ -1,8 +1,10 @@
 function Resume() {
 
-    return (
+  return (
+    <div className="mt-8">
       <p>Resume </p>
-    );
-  }
-  
-  export default Resume;
+    </div>
+  );
+}
+
+export default Resume;

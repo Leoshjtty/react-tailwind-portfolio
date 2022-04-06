@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App flex flex-col "> {/*h-screen*/}
       <Navbar />
-      <div className="App-header">
+      <div className="App-header mt-20">
         <Router>
           <div className="Routing" > {/*id={load ? "no-scroll" : "scroll"}*/}
             <Routes>

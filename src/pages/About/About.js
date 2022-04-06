@@ -3,7 +3,7 @@ import pp from '../../assets/Profile Pic.jpg';
 function About() {
 
   return (
-    <div>
+    <div className="mt-8">
       <p>About </p>
       <img src={pp} className="Profile-pic" alt="pp" />
       <a
