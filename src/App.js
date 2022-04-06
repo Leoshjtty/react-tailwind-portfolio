@@ -15,7 +15,7 @@ import Resume from './pages/Resume/Resume.js';
 function App() {
 
   return (
-    <div className="App flex flex-col h-screen">
+    <div className="App flex flex-col "> {/*h-screen*/}
       <Navbar />
       <div className="App-header">
         <Router>

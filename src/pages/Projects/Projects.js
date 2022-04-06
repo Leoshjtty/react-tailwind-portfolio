@@ -11,7 +11,7 @@ function Projects() {
         >
           Toto Alert Bot
         </a> */}
-      <div className="wrapper flex flex-row my-8">
+      <div className="wrapper flex flex-col lg:flex-row my-8">
         <div className="max-w-sm rounded overflow-hidden shadow-lg m-8 border-2 border-teal-500">
           <img className="w-full" src={process.env.PUBLIC_URL+"img/telebot.jpg"} alt="Python Telegram Bot"/>
             <div className="px-6 py-4">

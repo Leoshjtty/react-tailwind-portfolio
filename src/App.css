@@ -5,12 +5,18 @@ html, body {
 }
 
 html, body, .App, .App>div {
-  height: 100vh;
+  min-height: 100vh;
+}
+
+@media (min-width: 1024px) {
+  html, body, .App, .App>div {
+    height: 100vh;
+    min-height: auto;
+  }
 }
 
 .App {
   text-align: center;
-  /* height: 100%; */
 }
 
 .App-logo {
