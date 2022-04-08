@@ -1,7 +1,7 @@
 function Projects() {
 
   return (
-    <div className="mt-8 flex h-full">
+    <div className="mt-8">
       {/* <div className='mx-auto'> */}
         <p>Projects </p>
         {/* <a
