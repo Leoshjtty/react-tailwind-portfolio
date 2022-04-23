@@ -11,7 +11,7 @@ function Navbar() {
       <div className="wrapper flex items-center justify-between flex-wrap max-w-6xl m-auto">
         <div className="flex items-end flex-shrink-0 text-white mr-6">
           <img className="h-8 w-8 mr-2" src={process.env.PUBLIC_URL+"img/candle-logo.png"} width="54" height="54" alt="logo" style={{filter: "brightness(0) invert(100%)"}}/>
-          <span className="font-semibold text-xl tracking-tight">Ösel</span>
+          <span className="font-semibold text-xl tracking-tight">Osel</span>
         </div>
         <div className="block lg:hidden" >
           {menuOpen ?  <button onClick={toggler} className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
