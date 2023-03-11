@@ -17,9 +17,9 @@ function App() {
   return (
     <div className="App flex flex-col "> {/*h-screen*/}
       <Navbar />
-      <div className="App-header mt-20">
+      <div className="App-header mt-20 min-h-screen">
         <Router>
-          <div className="Routing" > {/*id={load ? "no-scroll" : "scroll"}*/}
+          <div className="Routing grow" > {/*id={load ? "no-scroll" : "scroll"}*/}
             <Routes>
               <Route path="/" exact element={<Home />} />
               <Route path="/projects" element={<Projects />} />
@@ -28,8 +28,8 @@ function App() {
             </Routes>
           </div>
         </Router>
+        <Footer />
       </div>
-      <Footer />
     </div>
 
   );
